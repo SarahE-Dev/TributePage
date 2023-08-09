@@ -1,15 +1,16 @@
 body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: larger;
-background-color: midnightblue;
+background-color: darkslateblue;
 color: lightgray;
 text-align: center; }
 
 #title {border: groove;
 border-color: darkblue;
 border-width: 5px;
-color: dodgerblue;
+color: steelblue;
 background-color: lightgray;
-padding: 10px; }
+padding: 10px;
+text-shadow: 3px 2px 2px midnightblue; }
 
 .title { width: 300px;
 display: flex;
@@ -31,7 +32,12 @@ max-height: auto;
     justify-content: center; }
 
 
+#tribute-info { color: steelblue;
+text-shadow: 3px 3px darkblue;}
 
-a { color: darkgray; }
+p { text-shadow: 2px 2px midnightblue;}
 
-ul { list-style-type: none; }
+
+a { color: steelblue;
+text-decoration: none; }
+
